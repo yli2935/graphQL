@@ -1,0 +1,7 @@
+{
+    "env":{
+        "MONGO_USER":"admin",
+        "MONGO_PASSWORD":"lYGWZW424",
+        "MONGO_URL":"mongodb+srv://admin:lYGWZW424@cluster0.yzqz4.mongodb.net/graphQL?retryWrites=true&w=majority"
+    }
+}
