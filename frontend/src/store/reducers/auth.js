@@ -9,7 +9,7 @@ const initialState = {
     user: undefined,
     error: undefined,
 };
-const auth = createSlice({
+const authenticationSlice  = createSlice({
     name: 'auth',
     initialState,
     reducers: {
@@ -40,5 +40,6 @@ const auth = createSlice({
 })
 
 // extract action-creators from slice
-const { loginRequest, loginSuccess, loginFailure } = authSlice.actions;
+export const authenticationActions = authenticationSlice.actions;
+export default authenticationSlice.reducer;
 
